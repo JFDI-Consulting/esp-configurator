@@ -22,7 +22,7 @@ But there are some interesting things to note about all this...
 
 So why weigh down each device with all that baggage? Why not have one central configuration device, an access point to which client devices connect and download their configuration? We free up a lot of memory for use in important things like TLS and server verification. We also make configuration of large numbers of devices quick and easy. Plus, we get to reconfigure just as easily.
 
-##ESP Configurator is born
+##ESP Configurator is born##
 
 This is the idea behind ESP Configurator. A central device is the key to configuration of any number of devices. Once the Configurator device is switched off and put away (in a safe, if you like), there's no way into the devices. If you need to change network SSID, passcode or MQTT credentials, fire up the device once again, change the configuration centrally, and deploy that configuration to all devices within minutes.
 
@@ -34,7 +34,7 @@ The rules of engagement are thus:
 4. a device enabled with ESP Configurator will only connect to one ESP Configurator server device
 5. the ESP Configurator Server device checks each client for authenticity using 2FA
 
-##JFDI Conceived ESP Configurator as Open Source
+##JFDI Conceived ESP Configurator as Open Source##
 
 JFDI Consulting conceived ESP Configurator to improve the security and configuration landscapes for ESP8266 and ESP32 devices. We want these devices and the incredible firmwares being written for them to be as secure and easy to configure as possible. We want the Espressif platform to become usable in a wider commercial/industrial context, without networks of sensors being ticking timebombs of vulnerability. We want to make sensor networks truly low-cost, not just to build or buy, but also to implement and maintain.
 
